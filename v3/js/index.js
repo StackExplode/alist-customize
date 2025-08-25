@@ -52,7 +52,7 @@ const onCreateElement = (tag, attrs) => {
   return dom;
 };
 
-const renderFooter = (data) => {
+const renderFooter = (data) => { return;
   const target = document.querySelector(".footer > div");
   if (target) {
     onPatchStyle(footerStyle);
